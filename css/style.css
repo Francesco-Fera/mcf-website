@@ -215,6 +215,7 @@ pre {
   right: 0;
   width: 100vw;
   margin-bottom: 10rem;
+  z-index: 1;
 }
 
 .navbar img {
@@ -485,11 +486,14 @@ pre {
 }
 
 .fa-facebook:hover {
-  color: #1773EA;
+  color: #4676ee;
 }
 
 .fa-instagram:hover {
   color: #B32E87;
+}
+.fa-tiktok:hover {
+  color: #ee1d52;
 }
 
 /* Animations */
