@@ -225,14 +225,12 @@ pre {
   top: 0; */
 }
 
-/* .navbar ul {
-  display: flex;
-}
-
 .navbar a {
   color: #fff;
-  padding: 10px;
-  margin: 0 5px;
+}
+
+/* .navbar ul {
+  display: flex;
 }
 
 .navbar a:hover {
@@ -482,8 +480,8 @@ pre {
   margin: 0 10px;
 }
 
-.fa-github:hover {
-  color: #000000;
+.fa-linkedin:hover {
+  color: #0e76a8;
 }
 
 .fa-facebook:hover {
@@ -492,10 +490,6 @@ pre {
 
 .fa-instagram:hover {
   color: #B32E87;
-}
-
-.fa-twitter:hover {
-  color: #1C9CEA;
 }
 
 /* Animations */
