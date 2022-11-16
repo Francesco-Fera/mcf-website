@@ -247,7 +247,7 @@ pre {
 .title-right,
 .title {
   font-weight: 700;
-  background: -webkit-linear-gradient(44deg, #6d0db6, #a52ab3);
+  background: -webkit-linear-gradient(#6d0db6, #a52ab3);
   background-clip: text;
   /* color: transparent; */
   -webkit-background-clip: text;
@@ -416,7 +416,29 @@ pre {
   opacity: 0;
 }
 
-.features-head img,
+.hero {
+  overflow: hidden;
+  height: 100vh;
+  background-image: url("../images/Blob.png");
+  background-repeat: no-repeat;
+  background-size: 500px;
+  background-position: right;
+  background-position-x: 86vw;
+  text-align: center;
+}
+
+.hero-text {
+  justify-self: center;
+  padding-bottom: 25px;
+}
+
+/* .features-head img {
+  width: 300px;
+  justify-self: flex-end;
+  display: inline-block;
+} */
+
+
 .docs-head img {
   width: 300px;
   justify-self: flex-end;
@@ -540,6 +562,15 @@ pre {
 
 /* Tablets and under */
 @media (max-width: 959px) {
+
+  .hero {
+    background-position: center;
+    background-position-y: 82vh;
+    background-size: 350px;
+    padding: 0px;
+  }
+
+
   .grid,
   .showcase .grid,
   .stats .grid,
@@ -551,17 +582,13 @@ pre {
     grid-template-rows: 1fr;
   }
 
-  .features-head {
-    padding-top: 150px;
-  }
-
   .showcase {
     height: auto;
   }
 
   .showcase-text {
     text-align: center;
-    margin-top: 40px;
+    margin-top: 90px;
     animation: slideInFromTop 1s ease-in;
   }
 

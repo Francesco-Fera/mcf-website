@@ -1,12 +1,12 @@
 // Hero animation
-window.onscroll = function () {
-  scrollRotate()
-}
+// window.onscroll = function () {
+//   scrollRotate()
+// }
 
-function scrollRotate() {
-  let image = document.getElementById('blob')
-  image.style.transform = 'rotate(' + window.pageYOffset / 2 + 'deg)'
-}
+// function scrollRotate() {
+//   let image = document.getElementById('blob')
+//   image.style.transform = 'rotate(' + window.pageYOffset / 2 + 'deg)'
+// }
 
 // Animate on scroll
 
