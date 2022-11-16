@@ -401,6 +401,7 @@ pre {
   transform: translateY(-15px);
 }
 
+
 /* Features */
 .features-head {
   height: 100vh;
@@ -579,7 +580,8 @@ pre {
   .features-sub-head,
   .docs-head {
     text-align: center;
-    height: 100vh;
+    padding: 2rem;
+    /* height: 100vh; */
   }
 
   .features-head img,
