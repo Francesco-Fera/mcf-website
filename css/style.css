@@ -482,6 +482,16 @@ pre {
   text-align: center;
 }
 
+.work-with-us {
+  background-color: #000000;
+  background-image: url("../images/lavora-con-noi-img.png");
+  background-size: 90vh;
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+  color: #fff;
+}
+
 .slide-left.active {
   animation: slideInFromLeft 1s ease-in;
   opacity: 1;
