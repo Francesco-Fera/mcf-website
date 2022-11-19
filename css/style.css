@@ -439,6 +439,7 @@ pre {
 } */
 
 
+
 .docs-head img {
   width: 300px;
   justify-self: flex-end;
@@ -446,10 +447,39 @@ pre {
   animation: slideInFromRight 1s ease-in;
 }
 
-.features-sub-head img {
+.service-img {
   width: 500px;
   justify-self: flex-end;
-  opacity: 0;
+}
+.contact-container,
+.team-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.team-photo{
+  max-width: 200px;
+  margin: 20px 25px;
+}
+
+.contact-item {
+  margin: 25px 50px;
+  text-align: center;
+}
+
+.contact-item>p {
+  font-weight: 700;
+}
+
+.contact-icon {
+  width: 40px;
+}
+
+.team-img-wrapper {
+  text-align: center;
 }
 
 .slide-left.active {
@@ -615,10 +645,13 @@ pre {
   }
 
   .features-head img,
-  .features-sub-head img,
+  /* .features-sub-head img, */
   .docs-head img {
     width: 400px;
     justify-self: center;
+  }
+  .service-img {
+    width: 400px;
   }
 
   .features-main .grid > *:first-child,
@@ -659,10 +692,14 @@ pre {
   }
 
   .features-head img,
-  .features-sub-head img,
+  /* .features-sub-head img, */
   .docs-head img {
     width: 275px;
     justify-self: center;
+  }
+
+  .service-img {
+    width: 275px;
   }
 
 }
