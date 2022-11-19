@@ -569,6 +569,9 @@ pre {
     background-size: 350px;
     padding: 0px;
   }
+  .service {
+    height: fit-content;
+  }
 
 
   .grid,
@@ -607,7 +610,7 @@ pre {
   .features-sub-head,
   .docs-head {
     text-align: center;
-    padding: 2rem;
+    /* padding: 1rem; */
     /* height: 100vh; */
   }
 
@@ -628,6 +631,10 @@ pre {
 @media (max-width: 600px) {
   body {
     line-height: 1.6;
+  }
+
+  .container {
+    padding: 0 5px;
   }
   
   .navbar {
@@ -654,7 +661,8 @@ pre {
   .features-head img,
   .features-sub-head img,
   .docs-head img {
-    width: 300px;
+    width: 275px;
     justify-self: center;
   }
+
 }
