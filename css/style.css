@@ -450,7 +450,7 @@ pre {
 
 .service-img {
   width: 500px;
-  justify-self: flex-end;
+  justify-self: center;
 }
 .contact-container,
 .team-container {
@@ -711,6 +711,16 @@ pre {
 
   .service-img {
     width: 275px;
+  }
+
+  .slide-left.active {
+    animation: none;
+    visibility: visible;
+  }
+  
+  .slide-right.active {
+    animation: none;
+    visibility: visible;
   }
 
 }
