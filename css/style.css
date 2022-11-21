@@ -414,7 +414,7 @@ pre {
 
 .slide-left,
 .slide-right {
-  opacity: 0;
+  visibility: hidden;
 }
 
 .hero {
@@ -495,12 +495,12 @@ pre {
 
 .slide-left.active {
   animation: slideInFromLeft 1s ease-in;
-  opacity: 1;
+  visibility: visible;
 }
 
 .slide-right.active {
   animation: slideInFromRight 1s ease-in;
-  opacity: 1;
+  visibility: visible;
 }
 
 .features-main .card > i {
