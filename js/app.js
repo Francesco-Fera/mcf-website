@@ -1,12 +1,12 @@
 // Hero animation
-window.onscroll = function () {
-  scrollRotate()
-}
+// window.onscroll = function () {
+//   scrollRotate()
+// }
 
-function scrollRotate() {
-  let image = document.getElementById('blob')
-  image.style.transform = 'rotate(' + window.pageYOffset / 2 + 'deg)'
-}
+// function scrollRotate() {
+//   let image = document.getElementById('blob')
+//   image.style.transform = 'rotate(' + window.pageYOffset / 2 + 'deg)'
+// }
 
 // Animate on scroll
 
@@ -18,9 +18,10 @@ function revealLeft() {
     var elementVisible = 150
     if (elementTop < windowHeight - elementVisible) {
       reveals[i].classList.add('active')
-    } else {
-      reveals[i].classList.remove('active')
     }
+    // else {
+    //  reveals[i].classList.remove('active')
+    // }
   }
 }
 
@@ -32,9 +33,10 @@ function revealRight() {
     var elementVisible = 150
     if (elementTop < windowHeight - elementVisible) {
       reveals[i].classList.add('active')
-    } else {
-      reveals[i].classList.remove('active')
     }
+    // else {
+    //   reveals[i].classList.remove('active')
+    // }
   }
 }
 

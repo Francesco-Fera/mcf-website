@@ -93,7 +93,7 @@
 
 /* Text sizes */
 .lead {
-  font-size: 20px;
+  font-size: 30px;
   animation: slideInFromLeft 1s ease-in;
 }
 
@@ -110,7 +110,7 @@
 }
 
 .xl {
-  font-size: 4rem;
+  font-size: 5rem;
 }
 
 .text-center {
