@@ -249,14 +249,13 @@ pre {
   font-weight: 700;
   background: -webkit-linear-gradient(#6d0db6, #a52ab3);
   background-clip: text;
-  /* color: transparent; */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .title-left,
 .title-right {
-  opacity: 0;
+  visibility: hidden;
 }
 
 .title {
@@ -265,12 +264,14 @@ pre {
 
 .title-left.active {
   animation: slideInFromLeft 1s ease-in;
-  opacity: 1;
+  visibility: visible;
+  
 }
 
 .title-right.active {
   animation: slideInFromRight 1s ease-in;
-  opacity: 1;
+  visibility: visible;
+
 }
 
 /* Showcase */
